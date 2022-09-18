@@ -85,7 +85,6 @@ const HookForm = () => {
             {...register("tokenAddress")}
             className="border border-black mb-2"
           />
-          {/* <p className="text-red-600">{errors.tokenAddress?.message}</p> */}
           <ErrorMessage name="tokenAddress" />
 
           <input
@@ -94,7 +93,6 @@ const HookForm = () => {
             className="border border-black"
           />
           <ErrorMessage name="tokenAmount" />
-          {/* <p className="text-red-600">{errors.tokenAmount?.message}</p> */}
 
           <button
             type="submit"
